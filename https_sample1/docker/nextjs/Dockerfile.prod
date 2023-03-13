@@ -1,0 +1,23 @@
+#本番用
+# base image
+FROM node:16.3.0-alpine
+
+# set working directory
+WORKDIR /app
+
+# copy source files
+COPY ../../ .
+
+# install dependencies and build the app
+RUN yarn
+RUN yarn build
+
+# expose port 3005
+EXPOSE 3005
+
+#yarn buildがエラーなく終わっても, yarn startできない場合13行目をコメントアウトして,
+#20行目をコメントアウト解除して, docker-compose up -d --build で再ビルドする
+#CMD ["yarn", "build"]
+
+# start the app
+CMD ["yarn", "start", "--port", "3005"]
