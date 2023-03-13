@@ -5,6 +5,7 @@ git clone https://github.com/techguild-dev/xserver-https-docker-test.git
 ```
 
 # docker compose upを行う
+https_sampleとhttps_sample1のやり方は同じ
     
 ```shell
     cd https_sample
