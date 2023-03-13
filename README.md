@@ -41,6 +41,32 @@ https_sampleとhttps_sample1のやり方は同じ
 
 8.コンテナにVisual Studio Codeがアタッチされ、コンテナ内のファイルを編集できるようになります。
 
+
+# /appフォルダを開く
+はい、わかりやすく手順を説明します！
+
+まずは、リモート接続ツールでサーバーに接続しましょう。
+サーバーに接続したら、ターミナルを開きます。
+ターミナルで、以下のコマンドを入力します。
+```bash
+cd /app
+```
+これによって、現在のディレクトリを「/app」に変更します。
+
+
+次に、以下のコマンドを入力します。
+```bash
+code .
+```
+これによって、Visual Studio Codeを開きます。
+
+
+Visual Studio Codeが開いたら、左側のサイドバーで「Explorer」をクリックします。
+サイドバーの中で、「Open Folder」をクリックします。
+「Open Folder」をクリックすると、ファイルブラウザが開きます。
+ファイルブラウザで、/appフォルダを選択し、「OK」をクリックします。
+これで、/appフォルダをVisual Studio Codeで開くことができます！
+
 # node moduleのinstall
     
 ```shell
