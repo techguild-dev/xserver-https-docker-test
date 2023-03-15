@@ -33,12 +33,17 @@ https_sampleとhttps_sample1のやり方は同じ(ymlファイルの名前が違
 
 
 6.「Containers」が開いたら、作成したコンテナを選択します。
-(https_sample１_appを選択)
-選択したコンテナにカーソルを合わせると、「▷」「⋯」「🔍」「💻」のアイコンが表示されます。「💻」アイコンをクリックします。(アイコンがない場合あり)
 
+選択したコンテナにカーソルを合わせ右クリックをすると「Views Logs」が表示されるので、それをクリックするとターミナル上に
+```bash
+ready - started server on 0.0.0.0:3005, url: http://localhost:3005
+```
+が表示され動く。
+http://localhost:3005アクセスすると画面が表示される。
 
-7.「Attach Visual Studio Code」が表示されるので、それをクリックします。
+（ターミナルをクリックし、control + d　で止められる）
 
+7.選択したコンテナにカーソルを合わせ右クリックをすると「Attach Visual Studio Code」が表示されるので、それをクリックします。
 
 8.コンテナにVisual Studio Codeがアタッチされ、コンテナ内のファイルを編集できるようになります。
 
