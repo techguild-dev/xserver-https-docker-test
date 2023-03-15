@@ -5,11 +5,11 @@ git clone https://github.com/techguild-dev/xserver-https-docker-test.git
 ```
 
 # docker compose upを行う
-https_sampleとhttps_sample1のやり方は同じ
+https_sampleとhttps_sample1のやり方は同じ(ymlファイルの名前が違う点には注意)
     
 ```shell
     cd xserver-https-docker-test
-    cd https_sample
+    cd https_sample1
     docker-compose -f docker-compose.dev.yml up -d
 ```
 # リモート接続を使用して Visual Studio Code で Docker コンテナを開く方法
