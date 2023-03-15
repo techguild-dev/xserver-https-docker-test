@@ -8,6 +8,7 @@ git clone https://github.com/techguild-dev/xserver-https-docker-test.git
 https_sampleとhttps_sample1のやり方は同じ
     
 ```shell
+    cd xserver-https-docker-test
     cd https_sample
     docker-compose -f docker-compose.dev.yml up -d
 ```
