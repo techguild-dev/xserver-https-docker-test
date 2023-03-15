@@ -33,7 +33,7 @@ https_sampleとhttps_sample1のやり方は同じ(ymlファイルの名前が違
 
 
 6.「Containers」が開いたら、作成したコンテナを選択します。
-(https_sampleまたはhttps_sample１を選択)
+(https_sample１_appを選択)
 選択したコンテナにカーソルを合わせると、「▷」「⋯」「🔍」「💻」のアイコンが表示されます。「💻」アイコンをクリックします。(アイコンがない場合あり)
 
 
