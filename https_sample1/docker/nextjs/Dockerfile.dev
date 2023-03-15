@@ -4,16 +4,21 @@ FROM node:16.3.0-alpine
 # set working directory
 WORKDIR /app
 
-# copy source files
-COPY ../../ .
+# copy package.json and package-lock.json
+COPY ../../package*.json ./
+
+#yarn.lockをコピーする場合
+COPY ../../yarn.lock ./
 
 # install dependencies
 RUN yarn
 
-#RUN yarn install
+RUN yarn install
 
+# copy source files
+COPY ../../ .
 # expose port 3005
 EXPOSE 3005
 
 # start the app in development mode
-#CMD ["yarn", "dev", "--port", "3005"]
+CMD ["yarn", "dev", "--port", "3005"]

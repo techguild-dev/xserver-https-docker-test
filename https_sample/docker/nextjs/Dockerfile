@@ -15,6 +15,9 @@ COPY ../../yarn.lock ./
 
 # yarnを使う場合
 RUN yarn
+
+RUN yarn install
+
 # copy source files
 COPY ../.. .
 

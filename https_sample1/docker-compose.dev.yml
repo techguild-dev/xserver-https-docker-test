@@ -9,7 +9,10 @@ services:
     tty:
         true
     volumes:
-      - .:/app
+        - .:/app
+        - /app/.next
+        - /app/node_modules
+
 
   nginx:
     container_name: server1

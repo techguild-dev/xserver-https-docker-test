@@ -10,6 +10,8 @@ services:
       true
     volumes:
         - .:/app
+        - /app/.next
+        - /app/node_modules
 
   nginx:
     container_name: server
