@@ -67,4 +67,18 @@ Visual Studio Codeが開いたら、左側のサイドバーで「Explorer」を
 ファイルブラウザで、/appフォルダを選択し、「OK」をクリックします。
 これで、/appフォルダをVisual Studio Codeで開くことができます！
 
-# logの確認
+# sslの本番とtestの切り替え
+オラオラ証明書ではなくletsencryptで発行したファイルを
+
+
+https_sample1/docker/nginx/sslに配置し
+
+
+https_sample1/docker/nginx/Dockerfile
+
+
+https_sample1/docker/nginx/nginx.conf
+
+
+ファイルの記述を書き換える。(コメントアウトを切り替え発行した鍵のファイル名のpathに書き換え)
+
