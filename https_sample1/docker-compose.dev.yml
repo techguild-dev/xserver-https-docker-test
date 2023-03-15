@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: ./
-      dockerfile: docker/nextjs/Dockerfile.dev
+      dockerfile: docker/nextjs/Dockerfile.prod
     ports:
       - "3005:3005"
     tty:
