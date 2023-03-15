@@ -66,13 +66,4 @@ Visual Studio Codeが開いたら、左側のサイドバーで「Explorer」を
 ファイルブラウザで、/appフォルダを選択し、「OK」をクリックします。
 これで、/appフォルダをVisual Studio Codeで開くことができます！
 
-# node moduleのinstall
-    
-```shell
-    yarn install
-```
-
-# ビルド
-```shell
-    yarn run　dev
-```
+# logの確認
